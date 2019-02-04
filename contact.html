@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Contact Me!</title>
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <style>
+        @media screen and (max-width: 800px)
+        {
+            #header {max-width: 800px;}
+            #Holder {margin-left: 10px;}
+            #center {max-width: 800px;}
+            #Buttons {float: left; max-width: 800px;}
+            .btn-group {float: left; padding-left: 10px;}
+            #themain {max-width: 800px;}
+            #aboutmeh {max-width: 800px; text-align: left}
+        }
+        @media screen and (max-width: 500px)
+        {
+            #header {max-width: 500px;}
+            #Holder {margin-left: 75px;}
+            #center {max-width: 500px;}
+            #Buttons {float: left; max-width: 500px;}
+            .btn-group {float: left; padding-left: 75px;}
+            #themain {max-width: 450px; margin:auto;}
+            #main {max-width: 450px; }
+            #aboutmeh {max-width: 500px; text-align: left}
+}
+        </style>
+        </head>
+
+        <body>
+            <div id="header">
+                <div id="center">
+                    <div id="Holder">
+                            <h1>Paul Carias</h1>
+                    </div>
+                    <div id="Buttons">
+                            <div class="btn-group">
+                                    <button class="button" onclick="window.location.href='index.html'">About Me</button>
+                                    <button class="button" onclick="window.location.href='portfolio.html'" >Portfolio</button>
+                                    <button class="button" onclick="window.location.href='contact.html'">Contact Me</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div id="themain">
+                <div id="main">
+
+                    <div id="aboutmeh">
+                        <h2>Contact Me</h2>
+                    </div><hr />
+                    <div id="forms">
+                            <form>
+                                First name:<br>
+                                <input type="text" name="firstname">
+                                <br>
+                                Last name: <br>
+                                <input type="text" name="lastname">
+                                <br>
+                                Message:<br>
+                                <textarea name="Text1" cols="75" rows="5"></textarea><br>
+                                <input type="submit" name="submit" style="background-color: #4aaaa5; border: none; height: 25px; width: 75px; color: #dddddd; font-family: 'Times New Roman', Times, serif">
+                                </form>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="footer">
+                    Copyright
+                </footer>
+            
+        </body>
+
+    </html>
